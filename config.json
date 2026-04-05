@@ -1,0 +1,35 @@
+{
+  "_instructions": "Завантаж index.html на AppsGeyser.com → Create App → HTML/Website",
+  "app_name": "Додаток",
+  "package_name": "com..app",
+  "description": "HTML Application",
+  "version": "1.0.0",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "icon_emoji": "🚀",
+  "permissions": [
+    "INTERNET",
+    "ACCESS_BACKGROUND_LOCATION",
+    "FULLSCREEN"
+  ],
+  "permissions_detail": [
+    {
+      "name": "Інтернет",
+      "android": "android.permission.INTERNET",
+      "dangerous": false
+    },
+    {
+      "name": "Геолокація фоново",
+      "android": "android.permission.ACCESS_BACKGROUND_LOCATION",
+      "dangerous": true
+    },
+    {
+      "name": "Повноекранний режим",
+      "android": "android.permission.FULLSCREEN",
+      "dangerous": false
+    }
+  ],
+  "appsgeyser_url": "https://appsgeyser.com",
+  "pwa_ready": true,
+  "generated_at": "2026-04-05T17:13:33.584Z"
+}
